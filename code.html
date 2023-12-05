@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MedVoice Bot</title>
+</head>
+
+<body>
+
+    <!-- Trigger button -->
+    <button id="openChatBtn">Open Chat</button>
+
+    <!-- Chatbot Popup Container -->
+    <div id="chatbotPopup">
+        <div class="chat-header">
+            <span id="closeChatBtn">&times;</span>
+            <h2>Chatbot</h2>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendMessageBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
